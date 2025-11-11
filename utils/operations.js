@@ -26,9 +26,9 @@ export function divide(numbers) {
   let result = numbers[0];
   if (numbers.length === 0) return NaN;
   else 
-  for (let i = 1; i < numbers.length; i++) {
-    result /= numbers[i];
-  }
-  return result;
+    for (let i = 1; i < numbers.length; i++) {
+      result /= numbers[i];
+    }
+    return result;
 }
 
