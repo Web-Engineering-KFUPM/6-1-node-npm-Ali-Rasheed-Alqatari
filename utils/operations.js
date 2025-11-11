@@ -1,16 +1,34 @@
 export function add(numbers) {
-  return {/*write code here*/}
+  let result = 0;
+  for (const num of numbers) {
+    result += num;
+  }
+  return result;
 }
 
 export function subtract(numbers) {
-  return {/*write code here*/}
+  let result = numbers[0];
+  for (let i = 1; i < numbers.length; i++) {
+    result -= numbers[i];
+  }
+  return result;
 }
 
 export function multiply(numbers) {
-  return {/*write code here*/}
+  let result = 1;
+  for (const num of numbers) {
+    result *= num;
+  }
+  return result;
 }
 
 export function divide(numbers) {
-  return {/*write code here*/}
+  let result = numbers[0];
+  if (numbers.length === 0) return NaN;
+  else 
+  for (let i = 1; i < numbers.length; i++) {
+    result /= numbers[i];
+  }
+  return result;
 }
 
